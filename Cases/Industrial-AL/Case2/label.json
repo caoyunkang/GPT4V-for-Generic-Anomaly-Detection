@@ -1,0 +1,8 @@
+{
+  "dataset": "VisA",
+  "category": "Capsules",
+  "reference_normal_standards": "Normally, the image given should show 20 identical capsules with a consistent shape, size, and color. It may have defects such as variations in coloration, irregular shapes, signs of leakage, or damage to the capsules' surfaces.",
+  "reference_abnormal_states": "Mask1 presents a damaged capsule.",
+
+  "prompt": "The first image needs to be inspected. The second image contains its corresponding marks. Please determine whether the image contains anomalies or defects. If yes, give a specific reason."
+}

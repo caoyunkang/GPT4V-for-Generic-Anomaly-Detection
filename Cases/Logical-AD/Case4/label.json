@@ -1,0 +1,8 @@
+{
+  "dataset": "MVTec LOCO",
+  "category": "Screw Bag",
+  "reference_normal_standards": "1. Includes two screws, two nuts, and two washers. 2. The screws should be of varying lengths: one long and one short.",
+  "reference_abnormal_states": "The two screws are both long, while it should contain one long screw and one short screw.",
+  "zero-shot prompt": "The image given about screw bags should obey the following rules: 1. Includes two screws, two nuts, and two washers. 2. The screws should be of varying lengths: one long and one short. Please determine whether the given image contains anomalies or defects. If yes, give a specific reason.",
+  "one-shot prompt": "The image given about screw bags should obey the following rules: 1. Includes two screws, two nuts, and two washers. 2. The screws should be of varying lengths: one long and one short. The first image meets all the standards and is normal. Please determine whether the second image contains anomalies or defects. If yes, give a specific reason.",
+}

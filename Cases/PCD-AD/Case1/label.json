@@ -1,0 +1,19 @@
+{
+  "dataset": "MVTec 3D",
+  "category": "Bagel",
+  "reference_normal_standards": "Normally, the image given should depict a rounded shape with a central hole, consistent with the typical form of a bagel. It may have defects such as irregularities in the surface texture, inconsistencies in the hole's shape, or uneven thickness throughout the structure.",
+  "reference_abnormal_states": "There's a significant dent or indentation on the left side of the bagel.",
+
+  "zero-shot-prompt": {
+  "naive": "Please determine whether the rendered depth image contains anomalies or defects. If yes, give a specific reason.",
+  "with class_information": "Please determine whether the rendered depth image given about the bagel contains anomalies or defects. If yes, give a specific reason.",
+  "with human expertise": "Please determine whether the rendered depth image given about the bagel contains anomalies or defects. If yes, give a specific reason. Normally, the image given should depict a rounded shape with a central hole, consistent with the typical form of a bagel. It may have defects such as irregularities in the surface texture, inconsistencies in the hole's shape, or uneven thickness throughout the structure.",
+},
+  
+
+  "one-shot-prompt": {
+  "naive": "The first rendered depth image is normal. Please determine whether the second rendered depth image contains anomalies or defects. If yes, give a specific reason.",
+  "with class_information": "The first rendered depth image given about the bagel is normal. Please determine whether the second rendered depth image given about the bagel contains anomalies or defects. If yes, give a specific reason.",
+  "with human expertise": "The first rendered depth image given  about the bagel is normal. Please determine whether the second rendered depth image given about the bagel contains anomalies or defects. If yes, give a specific reason. Normally, the image given should depict a rounded shape with a central hole, consistent with the typical form of a bagel. It may have defects such as irregularities in the surface texture, inconsistencies in the hole's shape, or uneven thickness throughout the structure.",
+}
+}

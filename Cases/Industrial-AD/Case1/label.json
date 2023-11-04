@@ -1,0 +1,19 @@
+{
+  "dataset": "MVTec AD",
+  "category": "Bottle",
+  "reference_normal_standards": "Normally, the image given should depict clear and identifiable bottles. It may have defects such as broken parts, contaminations.",
+  "reference_abnormal_states": "A cord-like material partially inside and outside the bottle.",
+
+  "zero-shot-prompt": {
+  "naive": "Please determine whether the image contains anomalies or defects. If yes, give a specific reason.",
+  "with class_information": "Please determine whether the image given about the bottle contains anomalies or defects. If yes, give a specific reason.",
+  "with human expertise": "Please determine whether the image given about the bottle contains anomalies or defects. If yes, give a specific reason. Normally, the image given should depict clear and identifiable bottles. It may have defects such as broken parts, contaminations.",
+},
+  
+
+  "one-shot-prompt": {
+  "naive": "The first image is normal. Please determine whether the second image contains anomalies or defects. If yes, give a specific reason.",
+  "with class_information": "The first image given about the bottle is normal. Please determine whether the second image given about the bottle contains anomalies or defects. If yes, give a specific reason.",
+  "with human expertise": "The first image given  about the bottle is normal. Please determine whether the second image given about the bottle contains anomalies or defects. If yes, give a specific reason. Normally, the image given should depict clear and identifiable bottles. It may have defects such as broken parts, contaminations.",
+}
+}

@@ -1,0 +1,19 @@
+{
+  "dataset": "VisA",
+  "category": "Candle",
+  "reference_normal_standards": "Normally, the image given should display four round, flat candles with centered wicks. It may have defects such as uneven wax surfaces, discolored patches, or misaligned wicks.",
+  "reference_abnormal_states": "The bottom right candle has a noticeable defect. The wax surrounding the wick appears to be damaged or melted in an irregular manner.",
+
+  "zero-shot-prompt": {
+  "naive": "Please determine whether the image contains anomalies or defects. If yes, give a specific reason.",
+  "with class_information": "Please determine whether the image given about the candle contains anomalies or defects. If yes, give a specific reason.",
+  "with human expertise": "Please determine whether the image given about the candle contains anomalies or defects. If yes, give a specific reason. Normally, the image given should display four round, flat candles with centered wicks. It may have defects such as uneven wax surfaces, discolored patches, or misaligned wicks.",
+},
+  
+
+  "one-shot-prompt": {
+  "naive": "The first image is normal. Please determine whether the second image contains anomalies or defects. If yes, give a specific reason.",
+  "with class_information": "The first image given about the candle is normal. Please determine whether the second image given about the candle contains anomalies or defects. If yes, give a specific reason.",
+  "with human expertise": "The first image given  about the candle is normal. Please determine whether the second image given about the candle contains anomalies or defects. If yes, give a specific reason. Normally, the image given should display four round, flat candles with centered wicks. It may have defects such as uneven wax surfaces, discolored patches, or misaligned wicks.",
+}
+}

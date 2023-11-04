@@ -1,0 +1,19 @@
+{
+  "dataset": "MVTec 3D",
+  "category": "Rope",
+  "reference_normal_standards": "Normally, the image given should depict a consistent and uniform pattern resembling the texture and structure of a rope. It may have defects such as breaks, uneven regions, frays, or inconsistent thickness along its length.",
+  "reference_abnormal_states": "There are some sections in the right where the thickness or texture appears slightly irregular or inconsistent. ",
+
+  "zero-shot-prompt": {
+  "naive": "Please determine whether the rendered depth image contains anomalies or defects. If yes, give a specific reason.",
+  "with class_information": "Please determine whether the rendered depth image given about the rope contains anomalies or defects. If yes, give a specific reason.",
+  "with human expertise": "Please determine whether the rendered depth image given about the rope contains anomalies or defects. If yes, give a specific reason. Normally, the image given should depict a consistent and uniform pattern resembling the texture and structure of a rope. It may have defects such as breaks, uneven regions, frays, or inconsistent thickness along its length.",
+},
+  
+
+  "one-shot-prompt": {
+  "naive": "The first rendered depth image is normal. Please determine whether the second rendered depth image contains anomalies or defects. If yes, give a specific reason.",
+  "with class_information": "The first rendered depth image given about the rope is normal. Please determine whether the second rendered depth image given about the rope contains anomalies or defects. If yes, give a specific reason.",
+  "with human expertise": "The first rendered depth image given  about the rope is normal. Please determine whether the second rendered depth image given about the rope contains anomalies or defects. If yes, give a specific reason. Normally, the image given should depict a consistent and uniform pattern resembling the texture and structure of a rope. It may have defects such as breaks, uneven regions, frays, or inconsistent thickness along its length.",
+}
+}

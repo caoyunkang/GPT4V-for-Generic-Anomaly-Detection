@@ -1,0 +1,19 @@
+{
+  "dataset": "VisA",
+  "category": "PCB",
+  "reference_normal_standards": "Normally, the image given should show a clean and well-structured printed circuit board (PCB) with clear traces, soldered components, and distinct labels. It may have defects such as bent pins, cold solder joints, missing components, or smudged labels.",
+  "reference_abnormal_states": "There is a bent wire in the bottom left of the PCB.",
+
+  "zero-shot-prompt": {
+    "naive": "Please determine whether the image contains anomalies or defects. If yes, give a specific reason.",
+    "with class_information": "Please determine whether the image given about the PCB contains anomalies or defects. If yes, give a specific reason.",
+    "with human expertise": "Please determine whether the image given about the PCB contains anomalies or defects. If yes, give a specific reason. Normally, the image given should show a clean and well-structured printed circuit board (PCB) with clear traces, soldered components, and distinct labels. It may have defects such as bent pins, cold solder joints, missing components, or smudged labels.",
+  },
+
+
+  "one-shot-prompt": {
+    "naive": "The first image is normal. Please determine whether the second image contains anomalies or defects. If yes, give a specific reason.",
+    "with class_information": "The first image given about the PCB is normal. Please determine whether the second image given about the PCB contains anomalies or defects. If yes, give a specific reason.",
+    "with human expertise": "The first image given  about the PCB is normal. Please determine whether the second image given about the PCB contains anomalies or defects. If yes, give a specific reason. Normally, the image given should show a clean and well-structured printed circuit board (PCB) with clear traces, soldered components, and distinct labels. It may have defects such as bent pins, cold solder joints, missing components, or smudged labels.",
+  }
+}

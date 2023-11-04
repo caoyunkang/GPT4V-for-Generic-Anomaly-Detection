@@ -1,0 +1,8 @@
+{
+  "dataset": "MVTec LOCO",
+  "category": "Splicing Connector",
+  "reference_normal_standards": "1. Both the left and right connectors must be of the same type. 2. A continuous cable should connect the two connectors.",
+  "reference_abnormal_states": "The cable connecting the two connectors is broken.",
+  "zero-shot prompt": "The image given about splicing connectors should obey the following rules: 1. Both the left and right connectors must be of the same type. 2. A continuous cable should connect the two connectors. Please determine whether the given image contains anomalies or defects. If yes, give a specific reason.",
+  "one-shot prompt": "The image given about splicing connectors should obey the following rules: 1. Both the left and right connectors must be of the same type. 2. A continuous cable should connect the two connectors. The first image meets all the standards and is normal. Please determine whether the second image contains anomalies or defects. If yes, give a specific reason.",
+}

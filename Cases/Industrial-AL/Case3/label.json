@@ -1,0 +1,8 @@
+{
+  "dataset": "MVTec AD",
+  "category": "Hazelnut",
+  "reference_normal_standards": "Normally, the image given should depict a smooth, roughly spherical hazelnut with a pointed tip and a characteristic fibrous husk remnant at one end. The nut's shell typically has a glossy, brown surface with some subtle ridges or textures. It may have defects such as cracks, holes, or discolorations that could indicate spoilage, insect damage, or mold.",
+  "reference_abnormal_states": "Mask2 presents a hole on the hazelnut.",
+
+  "prompt": "The first image needs to be inspected. The second image contains its corresponding marks. Please determine whether the image contains anomalies or defects. If yes, give a specific reason."
+}

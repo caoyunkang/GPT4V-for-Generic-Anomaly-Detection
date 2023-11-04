@@ -1,0 +1,8 @@
+{
+  "dataset": "MVTec LOCO",
+  "category": "Breakfast Box ",
+  "reference_normal_standards": "1. It should contain two oranges, one peach, and some cereal, nuts, and banana slices; 2. The fruit should be on the left side of the lunch box, the cereal on the upper right, and the nuts and banana slices on the lower right of the lunch box.",
+  "reference_abnormal_states": "The cereal is on the upper left, which is not as per the guidelines; it should be on the upper right. The nuts and banana slices are on the lower left, which is also incorrect; they should be on the lower right of the lunch box.",
+  "zero-shot prompt": "The image given about breakfast boxes should obey the following rules: 1. It should contain two oranges, one peach, and some cereal, nuts, and banana slices; 2. The fruit should be on the left side of the lunch box, the cereal on the upper right, and the nuts and banana slices on the lower right of the lunch box. Please determine whether the given image contains anomalies or defects. If yes, give a specific reason.",
+  "one-shot prompt": "The image given about breakfast boxes should obey the following rules: 1. It should contain two oranges, one peach, and some cereal, nuts, and banana slices; 2. The fruit should be on the left side of the lunch box, the cereal on the upper right, and the nuts and banana slices on the lower right of the lunch box. The first image meets all the standards and is normal. Please determine whether the second image contains anomalies or defects. If yes, give a specific reason.",
+}

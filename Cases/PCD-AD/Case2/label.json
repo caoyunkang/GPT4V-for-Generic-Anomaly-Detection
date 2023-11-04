@@ -1,0 +1,19 @@
+{
+  "dataset": "MVTec 3D",
+  "category": "Peach",
+  "reference_normal_standards": "Normally, the image given should depict a rounded, smooth surface characteristic of a peach. It may have defects such as dents, uneven texture, or abnormalities in its contour.",
+  "reference_abnormal_states": "There's a prominence in the bottom right of the peach.",
+
+  "zero-shot-prompt": {
+  "naive": "Please determine whether the rendered depth image contains anomalies or defects. If yes, give a specific reason.",
+  "with class_information": "Please determine whether the rendered depth image given about the peach contains anomalies or defects. If yes, give a specific reason.",
+  "with human expertise": "Please determine whether the rendered depth image given about the peach contains anomalies or defects. If yes, give a specific reason. Normally, the image given should depict a rounded, smooth surface characteristic of a peach. It may have defects such as dents, uneven texture, or abnormalities in its contour.",
+},
+  
+
+  "one-shot-prompt": {
+  "naive": "The first rendered depth image is normal. Please determine whether the second rendered depth image contains anomalies or defects. If yes, give a specific reason.",
+  "with class_information": "The first rendered depth image given about the peach is normal. Please determine whether the second rendered depth image given about the peach contains anomalies or defects. If yes, give a specific reason.",
+  "with human expertise": "The first rendered depth image given  about the peach is normal. Please determine whether the second rendered depth image given about the peach contains anomalies or defects. If yes, give a specific reason. Normally, the image given should depict a rounded, smooth surface characteristic of a peach. It may have defects such as dents, uneven texture, or abnormalities in its contour.",
+}
+}

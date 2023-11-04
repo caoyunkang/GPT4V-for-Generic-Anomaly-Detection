@@ -1,0 +1,8 @@
+{
+  "dataset": "MVTec LOCO",
+  "category": "Juice Bottle",
+  "reference_normal_standards": "1. The juice type should match the label design. 2. To prevent bottle explosions, ensure the juice is filled to about 3cm below the bottle's opening.",
+  "reference_abnormal_states": "The level of the juice appears to be filled close to the top.",
+  "zero-shot prompt": "The image given about juice bottles should obey the following rules: 1. The juice type should match the label design. 2. To prevent bottle explosions, ensure the juice is filled to about 3cm below the bottle's opening. Please determine whether the given image contains anomalies or defects. If yes, give a specific reason.",
+  "one-shot prompt": "The image given about juice bottles should obey the following rules: 1. The juice type should match the label design. 2. To prevent bottle explosions, ensure the juice is filled to about 3cm below the bottle's opening. The first image meets all the standards and is normal. Please determine whether the second image contains anomalies or defects. If yes, give a specific reason.",
+}
