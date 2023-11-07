@@ -139,12 +139,14 @@ For more details, please refer to the [document](https://arxiv.org/pdf/2311.0278
 
 If you found this study useful in your research or applications, please kindly cite using the following BibTeX:
 
+```bibtex
 @article{cao2023genericad,
-title={Towards Generic Anomaly Detection and Understanding: Large-scale Visual-linguistic Model (GPT-4V) Takes the Lead},
-author={{Yunkang Cao and Xiaohao Xu and Chen Sun and Xiaonan Huang and Weiming Shen},
-journal={arXiv preprint arXiv:2311.02782},
-year={2023}
+  title={Towards Generic Anomaly Detection and Understanding: Large-scale Visual-linguistic Model (GPT-4V) Takes the Lead},
+  author={Yunkang Cao and Xiaohao Xu and Chen Sun and Xiaonan Huang and Weiming Shen},
+  journal={arXiv preprint arXiv:2311.02782},
+  year={2023}
 }
+```
 
 
 ---
