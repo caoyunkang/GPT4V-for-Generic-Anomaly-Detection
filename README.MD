@@ -155,4 +155,43 @@ If you found this study useful in your research or applications, please kindly c
 
 Our study is largely inspired by [GPT-4V](http://arxiv.org/abs/2309.17421), [GPT-4V for Medical](http://arxiv.org/abs/2310.09909), [SoM](http://arxiv.org/abs/2310.11441), [CPMF](https://arxiv.org/abs/2303.13194). Thanks for their wonderful work!
 
+```bibtex
+@article{yang2023dawnoflmms,
+  title={The Dawn of LMMs: Preliminary Explorations with GPT-4V (ision)},
+  author={Yang, Zhengyuan and Li, Linjie and Lin, Kevin and Wang, Jianfeng and Lin, Chung-Ching and Liu, Zicheng and Wang, Lijuan},
+  journal={arXiv preprint arXiv:2309.17421},
+  year={2023}
+}
+
+@article{yang2023SoM,
+	title = {Set-of-Mark Prompting Unleashes Extraordinary Visual Grounding in {GPT}-4V},
+	journal = {{arXiv preprint, arXiv}:2310.11441},
+	year = {{2023}},
+	author = {Yang, Jianwei and Zhang, Hao and Li, Feng and Zou, Xueyan and Li, Chunyuan and Gao, Jianfeng},
+}
+
+@article{liu2023hallusionbench,
+  title={HallusionBench: You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V (ision), LLaVA-1.5, and Other Multi-modality Models},
+  author={Liu, Fuxiao and Guan, Tianrui and Li, Zongxia and Chen, Lichang and Yacoob, Yaser and Manocha, Dinesh and Zhou, Tianyi},
+  journal={arXiv preprint arXiv:2310.14566},
+  year={2023}
+}
+
+@article{wu2023cangpt,
+	title = {Can {GPT}-4V(ision) Serve Medical Applications? Case Studies on {GPT}-4V for Multimodal Medical Diagnosis},
+author = {Wu, Chaoyi and Lei, Jiayu and Zheng, Qiaoyu and Zhao, Weike and Lin, Weixiong and Zhang, Xiaoman and Zhou, Xiao and Zhao, Ziheng and Zhang, Ya and Wang, Yanfeng and Xie, Weidi},
+  journal={arXiv preprint arXiv:2310.09909},
+  year={2023}
+}
+
+@article{cao2023cpmf,
+	title = {Complementary Pseudo Multimodal Feature for Point Cloud Anomaly Detection},
+	journal = {arXiv preprint arXiv:2303.13194},
+	author = {Cao, Yunkang and Xu, Xiaohao and Shen, Weiming},
+	year = 2023,
+}
+
+
+```
+
 [![Star History Chart](https://api.star-history.com/svg?repos=caoyunkang/GPT4V-for-Generic-Anomaly-Detection&type=Date)](https://star-history.com/#caoyunkang/GPT4V-for-Generic-Anomaly-Detection&Date)
