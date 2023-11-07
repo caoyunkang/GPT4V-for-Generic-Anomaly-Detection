@@ -30,11 +30,14 @@ Anomaly detection is a crucial task across different domains and data types. How
 **All cases and corresponding prompts for evalutaions can be found in ``./Cases``.**
 
 **The evaluations were conducted before November 7, 2023. GPT-4V has shown gradual improvement and may deliver even stronger performance in the future.**
+
 ---
+
 ## To-Do List
 
 - [ ] Evaluate quantitative results
 - [ ] Evaluate GPT-4V in multi-round conversations
+
 ---
 
 ## Observations
