@@ -1,0 +1,5 @@
+{
+  "dataset": "Head MRI",
+  "category": "anomaly",
+  "prompt": "The first image needs to be inspected. The second image contains its corresponding marks. Please determine whether the image contains anomalies. If yes, give a specific reason."
+}
