@@ -67,7 +67,7 @@ While GPT-4V shows promise, challenges exist in highly complex scenarios, such a
 
 ### Industrial Image Anomaly Detection
 
-**Task Introduction**: Industrial image anomaly detection is a critical component of manufacturing processes aimed at upholding product quality. Following the establishment of the MVTec AD dataset, various methods have thrived in this field. 
+**Task Introduction**: Industrial image anomaly detection is a critical component of manufacturing processes aimed at upholding product quality. Following the establishment of the MVTec AD dataset, various methods have thrived in this field.
 
 ![Industrial Image Anomaly Detection](./images/industrial-ad-case1-zero-shot.png)
 ![Industrial Image Anomaly Detection](./images/industrial-ad-case1-one-shot.png)
@@ -79,9 +79,55 @@ While GPT-4V shows promise, challenges exist in highly complex scenarios, such a
 ![Industrial Image Anomaly Localization](./images/industrial-al-case1.png)
 ![Industrial Image Anomaly Localization](./images/industrial-al-case2.png)
 
-<!-- Add descriptions and images for other tasks -->
+### Point Cloud Anomaly Detection
 
----
+**Task Introduction**: Geometrical information holds a crucial role in fields like industrial anomaly detection, especially when dealing with categories lacking textual information. In contrast, CPMF proposes a novel approach by transforming point clouds into depth images.
+
+![Point Cloud Anomaly Detection](./images/pcd-ad-case1-zero-shot.png)
+![Point Cloud Anomaly Detection](./images/pcd-ad-case1-one-shot.png)
+
+### Logical Anomaly Detection
+
+**Task Introduction**: In addition to structural anomalies, there exists another type of anomaly, named logical anomalies. Existing logical anomaly detection methods typically relied on solely visual context.
+
+![Logical Anomaly Detection](./images/logical-ad-case1.png)
+![Logical Anomaly Detection](./images/logical-ad-case2.png)
+
+### Medical Image Anomaly Detection
+
+**Task Introduction**: Anomaly detection in medical imaging is pivotal for early diagnosis and effective treatment planning. GPT-4V shows promising future in enhancing the performance of anomaly detection tasks in various medical imaging modalities.
+
+![Medical Image Anomaly Detection](./images/Chest X-Ray Case_1.png)
+![Medical Image Anomaly Detection](./images/Chest X-Ray Case_2.png)
+
+### Medical Image Anomaly Localization
+
+**Task Introduction**: Anomaly localization is imperative for clinicians to understand the extent and nature of the pathology.
+
+![Medical Image Anomaly Localization](./images/Endoscopy Localization Case.png)
+
+### Pedestrian Anomaly Detection
+
+**Task Introduction**: Pedestrian anomaly detection is dedicated to recognizing irregular activities within pedestrian interactions captured in video streams.
+
+![Pedestrian Anomaly Detection](./images/pedestrian-anomaly-detection-case1.png)
+
+### Traffic Anomaly Detection
+
+**Task Introduction**: Traffic anomaly detection aims at identifying the commencement and conclusion of abnormal events in traffic scenarios.
+
+![Traffic Anomaly Detection](./images/traffic-anomaly-detection-case1.png)
+![Traffic Anomaly Detection](./images/traffic-anomaly-detection-case2.png)
+
+### Time Series Anomaly Detection
+
+**Task Introduction:** Time series anomaly detection refers to the task of identifying unusual or abnormal patterns in sequential data over time.
+
+![Time Series Anomaly Detection](./images/time-series-ad-case-1.png)
+![Time Series Anomaly Detection](./images/time-series-ad-case-2.png)
+
+For more details, please refer to the [document](https://arxiv.org/pdf/2311.02782).
+
 
 ### Citation
 
