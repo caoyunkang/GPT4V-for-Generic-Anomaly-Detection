@@ -33,6 +33,13 @@ Anomaly detection is a crucial task across different domains and data types. How
 
 ---
 
+## To-Do List
+
+- [ ] Evaluate quantitative results
+- [ ] Evaluate GPT-4V in multi-round conversations
+
+---
+
 ## Observations
 
 GPT-4V demonstrates robust anomaly detection capabilities in various multi-modal and multi-field tasks. It excels in comprehending image context, discerning normal standards, and comparing provided images effectively.
@@ -130,10 +137,6 @@ While GPT-4V shows promise, challenges exist in highly complex scenarios, such a
 
 For more details, please refer to the [document](https://arxiv.org/pdf/2311.02782).
 
-## To-Do List
-
-- [ ] Evaluate quantitative results
-- [ ] Evaluate GPT-4V in multi-round conversations
 
 ### Citation
 

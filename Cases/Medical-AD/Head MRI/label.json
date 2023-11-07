@@ -1,0 +1,16 @@
+{
+  "dataset": "Head MRI",
+  "category": "tumor",
+
+  "zero-shot-prompt": {
+  "naive": "Please determine whether the image contains anomalies. If yes, give a specific reason.",
+  "with class_information": "Please determine whether this Head MRI image on the chest contains any anomalies. If yes, please give your reason.",
+  "with human expertise": "Please determine whether this Head MRI image contains any anomalies. If yes, please give your reason. The image given should be classified as normal or with tumor."},
+  
+
+  "one-shot-prompt": {
+  "naive": "The first image is normal. Please determine whether the second image contains anomalies. If yes, give a specific reason.",
+  "with class_information": "The first image of Head MRI is normal. Please determine whether the second image given contains anomalies. If yes, give a specific reason.",
+  "with human expertise": "The first image of Head MRI is normal. Please determine whether the second image given contains anomalies. If yes, give a specific reason. The image given should be classified as normal or with with tumor."
+}
+}
