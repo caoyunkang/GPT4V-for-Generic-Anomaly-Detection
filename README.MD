@@ -27,7 +27,7 @@ Yunkang Cao*, Xiaohao Xu*, Chen Sun*, Xiaonan Huang, Weiming Shen.
 
 Anomaly detection is a crucial task across different domains and data types. However, existing anomaly detection models are often designed for specific domains and modalities. This study explores the use of GPT-4V(ision), a powerful visual-linguistic model, to address anomaly detection tasks in a generic manner. We investigate the application of GPT-4V in multi-modality, multi-domain anomaly detection tasks, including image, video, point cloud, and time series data, across multiple application areas, such as industrial, medical, logical, video, 3D anomaly detection, and localization tasks. To enhance GPT-4V's performance, we incorporate different kinds of additional cues such as class information, human expertise, and reference images as prompts. Based on our experiments, GPT-4V proves to be highly effective in detecting and explaining global and fine-grained semantic patterns in zero/one-shot anomaly detection. This enables accurate differentiation between normal and abnormal instances. Overall, GPT-4V exhibits promising performance in generic anomaly detection and understanding, thus opening up a new avenue for anomaly detection.
 
-**All cases and corresponding prompts for evalutaions can be found in ``./Cases``.**
+**All cases and corresponding prompts for evaluations can be found in ``./Cases``.**
 
 **The evaluations were conducted before November 7, 2023. GPT-4V has shown gradual improvement and may deliver even stronger performance in the future.**
 
