@@ -106,14 +106,14 @@ While GPT-4V shows promise, challenges exist in highly complex scenarios, such a
 
 **Task Introduction**: Anomaly detection in medical imaging is pivotal for early diagnosis and effective treatment planning. GPT-4V shows promising future in enhancing the performance of anomaly detection tasks in various medical imaging modalities.
 
-![Medical Image Anomaly Detection](./images/Chest X-Ray Case_1.png)
-![Medical Image Anomaly Detection](./images/Chest X-Ray Case_2.png)
+![Medical Image Anomaly Detection](./images/Chest%20X-Ray%20Case_1.png)
+![Medical Image Anomaly Detection](./images/Chest%20X-Ray%20Case_2.png)
 
 ### Medical Image Anomaly Localization
 
 **Task Introduction**: Anomaly localization is imperative for clinicians to understand the extent and nature of the pathology.
 
-![Medical Image Anomaly Localization](./images/Endoscopy Localization Case.png)
+![Medical Image Anomaly Localization](./images/Endoscopy%20Localization%20Case.png)
 
 ### Pedestrian Anomaly Detection
 
