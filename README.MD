@@ -2,7 +2,7 @@
   <img src="./images/icon.jpg" alt="GPT4V for Generic Anomaly Detection" width="300" />
 </p>
 
-# Revolutionizing Generic Anomaly Detection: GPT-4V Takes the Lead
+# Towards Generic Anomaly Detection and Understanding: Large-scale Visual-linguistic Model (GPT-4V) Takes the Lead.
 
 [![License](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-red.svg)](LICENSE)
 
